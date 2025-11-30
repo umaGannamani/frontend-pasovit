@@ -1,0 +1,6 @@
+.cart-item{ display:flex; gap:12px; padding:12px; background:white; border-radius:8px; margin-bottom:12px; align-items:center; }
+.cart-item img{ width:110px; height:110px; object-fit:cover; border-radius:6px; }
+.cart-info{ flex:1; }
+.cart-controls{ display:flex; gap:10px; align-items:center; margin-top:8px; }
+.cart-controls input{ width:80px; padding:6px; border-radius:6px; border:1px solid #ddd; }
+.btn-remove{ background:#ff4d4f; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }

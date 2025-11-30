@@ -1,0 +1,5 @@
+.checkout-wrap{ display:flex; gap:24px; margin-top:10px; }
+.checkout-form{ width:100%; max-width:540px; display:flex; flex-direction:column; gap:10px; background:white; padding:18px; border-radius:8px; box-shadow:0 6px 18px rgba(16,24,40,0.06); }
+.checkout-form input{ padding:10px; border-radius:6px; border:1px solid #ddd; width:100%; }
+.checkout-side{ display:flex; justify-content:space-between; align-items:center; margin-top:12px; }
+.error{ color:#b00020; }

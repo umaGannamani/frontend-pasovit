@@ -1,2 +1,24 @@
 .products-header{ display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:18px; }
 .products-grid{ display:flex; flex-wrap:wrap; gap:16px; }
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.pagination button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
